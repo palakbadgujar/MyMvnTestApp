@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/vsts/pipelines/languages/java
 
 pool:
-  vmImage: 'ip-172-31-6-238'
+  vmImage: 'Ubuntu 16.04'
 
 steps:
 - task: Maven@3
